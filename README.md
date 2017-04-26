@@ -11,7 +11,7 @@ Run this program by then typing
 contains enough code to initalize a medium and start station threads. modify this program for most execution parameters.
 ### Medium.java
 Medium is implemented using the object oriented approach.
-1. Synchronized Methods
+1. Synchronized Methods  
   2. getBusy()
     * returns true when busy
     * returns false when not busy.  
