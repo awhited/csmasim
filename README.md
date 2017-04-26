@@ -5,7 +5,7 @@ Compile this program by opening a command shell and using
 * `javac csmasim.java`  
 
 Run this program by then typing
-* 'java csmasim'
+* `java csmasim`
 
 ## File Structure
 ### csmasim.java
