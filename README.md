@@ -13,12 +13,12 @@ contains enough code to initalize a medium and start station threads. modify thi
 Medium is implemented using the object oriented approach.
 1. Synchronized Methods
 ..1. getBusy()
-....* returns true when busy
-....* returns false when not busy.  
+  ..* returns true when busy
+  ..* returns false when not busy.  
 ..1. setBusy()
-....* sets status to busy
+  ..* sets status to busy
 ..1. setFree()
-....* sets status to not busy.
+  ..* sets status to not busy.
 
 ### Station.java
 Station emulates a wireless station which performs csma-cd on a Medium.
