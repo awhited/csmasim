@@ -12,12 +12,12 @@ contains enough code to initalize a medium and start station threads. modify thi
 ### Medium.java
 Medium is implemented using the object oriented approach.
 1. Synchronized Methods
-  1. getBusy()
+  2. getBusy()
     * returns true when busy
     * returns false when not busy.  
-  1. setBusy()
+  2. setBusy()
     * sets status to busy
-  1. setFree()
+  2. setFree()
     * sets status to not busy.
 
 ### Station.java
