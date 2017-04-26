@@ -1,24 +1,25 @@
 # csmasim
 Programming project for CS1699
 ## How to compile and run
-Compile this program by opening a command shell and using
-  'javac csmasim.java'
+Compile this program by opening a command shell and using  
+* `javac csmasim.java`  
+
 Run this program by then typing
-  'java csmasim'
+* 'java csmasim'
 
 ## File Structure
 ### csmasim.java
 contains enough code to initalize a medium and start station threads. modify this program for most execution parameters.
 ### Medium.java
-Medium is implemented using the object oriented approach.
-1. Synchronized Methods  
-  1. getBusy()
-    * returns true when busy
+Medium is implemented using the object oriented approach.  
+Synchronized Methods  
+  * getBusy()   
+    * returns true when busy  
     * returns false when not busy.  
-  1. setBusy()
-    * sets status to busy
-  1. setFree()
-    * sets status to not busy.
+  * setBusy()  
+    * sets status to busy  
+  * setFree()  
+    * sets status to not busy.  
 
 ### Station.java
   * Station emulates a wireless station which performs csma-cd on a Medium.
