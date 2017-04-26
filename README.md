@@ -12,17 +12,19 @@ contains enough code to initalize a medium and start station threads. modify thi
 ### Medium.java
 Medium is implemented using the object oriented approach.
 1. Synchronized Methods  
-  2. getBusy()
+  1. getBusy()
     * returns true when busy
     * returns false when not busy.  
-  2. setBusy()
+  1. setBusy()
     * sets status to busy
-  2. setFree()
+  1. setFree()
     * sets status to not busy.
 
 ### Station.java
-Station emulates a wireless station which performs csma-cd on a Medium.
-Detailed description in the source code. you may flip debug to true or false for alternative output
+  * Station emulates a wireless station which performs csma-cd on a Medium.
+  * Detailed description in the source code.
+  * you may flip debug to true or false for alternative output
+
 ## Result Analysis
 I found that with a modern system, collisions are very very rare, even with probability set to 100, many nodes on the network, and many packets to send, collisions seem to be random and maybe occur once every fifty or so transmissions. This was a great program to trace through the logic of csma-cd and learn it better.
 
